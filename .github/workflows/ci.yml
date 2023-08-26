@@ -8,8 +8,8 @@ jobs:
   laravel:
     runs-on: ubuntu-latest
     defaults:
-    run:
-      working-directory: laravel
+      run:
+        working-directory: laravel
     permissions:
       contents: read
       packages: write
