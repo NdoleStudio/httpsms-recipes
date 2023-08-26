@@ -47,6 +47,7 @@ ngrok http localhost:8000
 Now configure your webhook endpoint https://httpsms.com/settings to point to the URL provided by ngrok.
 When you receive an SMS, you will see the logs in your terminal as shown in the image below.
 
+<img width="1036" alt="image" src="https://github.com/NdoleStudio/httpsms-recipes/assets/4196457/b85d8659-e922-4535-a876-ab4131b19cb6">
 
 ## Security Vulnerabilities
 
