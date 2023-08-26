@@ -13,11 +13,13 @@ RUN a2enmod rewrite
 
 COPY . .
 
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+RUN mv .env.example .env
+RUN php artisan key:generate
+RUN composer install
+
 RUN chown -R www-data /var/www
 USER www-data
-
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-RUN composer install
 
 RUN rm -rf /var/www/html && ln -s /var/www/public /var/www/html
 

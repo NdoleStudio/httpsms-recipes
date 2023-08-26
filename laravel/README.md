@@ -14,7 +14,7 @@ httpSMS webhook documentation: https://docs.httpsms.com/webhooks/introduction
 
 ## Dependencies
 
-- [Laravel 10.x](https://laravel.com/docs/10.x) - PHP Framework used
+- [Laravel 10.x](https://laravel.com/docs/10.x) - PHP framework
 - [CloudEvents](https://github.com/cloudevents/sdk-php) - Used to deserialize CloudEvents from httpsms.com.
 - [php-jwt](https://github.com/firebase/php-jwt) - Used to authenticate webhook requests.
 
