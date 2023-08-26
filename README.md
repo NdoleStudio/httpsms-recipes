@@ -13,6 +13,6 @@ receive SMS messages and also to receive webhook events.
 
 | Recipe                   | Webhook | Send SMS |
 |--------------------------|:-------:|:--------:|
-| [Laravel](./laravel/)    |    ✓    |    ✓    |
+| [Laravel](./laravel/)    |    ✓    |         |
 
 

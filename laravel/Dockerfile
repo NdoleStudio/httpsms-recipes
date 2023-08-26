@@ -15,8 +15,8 @@ COPY . .
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 RUN mv .env.example .env
-RUN php artisan key:generate
 RUN composer install
+RUN php artisan key:generate
 
 RUN chown -R www-data /var/www
 USER www-data
