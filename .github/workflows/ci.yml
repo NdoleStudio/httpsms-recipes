@@ -37,7 +37,7 @@ jobs:
         with:
           images: |
             ndolestudio/httpsms-laravel
-            ghcr.io/${{ github.repository }}
+            ghcr.io/ndolestudio/httpsms-laravel
           tags: |
             type=raw,value=latest
             type=raw,value=main
