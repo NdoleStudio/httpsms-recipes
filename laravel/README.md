@@ -1,9 +1,9 @@
 httpsms-laravel
 ===============
 
-[![Build](https://github.com/NdoleStudio/httpsms-recipies/actions/workflows/ci.yml/badge.svg)](https://github.com/NdoleStudio/httpsms-recipies/actions/workflows/ci.yml)
-[![GitHub contributors](https://img.shields.io/github/contributors/NdoleStudio/httpsms-recipies)](https://github.com/NdoleStudio/httpsms-recipies/graphs/contributors)
-[![GitHub license](https://img.shields.io/github/license/NdoleStudio/httpsms-recipies?color=brightgreen)](https://github.com/NdoleStudio/httpsms-recipies/blob/master/LICENSE)
+[![Build](https://github.com/NdoleStudio/httpsms-recipes/actions/workflows/ci.yml/badge.svg)](https://github.com/NdoleStudio/httpsms-recipes/actions/workflows/ci.yml)
+[![GitHub contributors](https://img.shields.io/github/contributors/NdoleStudio/httpsms-recipes)](https://github.com/NdoleStudio/httpsms-recipes/graphs/contributors)
+[![GitHub license](https://img.shields.io/github/license/NdoleStudio/httpsms-recipes?color=brightgreen)](https://github.com/NdoleStudio/httpsms-recipes/blob/master/LICENSE)
 
 This recipe contains an example Laravel application to receive incoming webhook events from the  httpsms.com API. 
 You can use this code as inspiration for creating a consumer for webhook events from httpsms.com.
