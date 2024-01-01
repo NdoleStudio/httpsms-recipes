@@ -63,16 +63,16 @@
         },
         {
             "name": "cloudevents/sdk-php",
-            "version": "v1.0.3",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudevents/sdk-php.git",
-                "reference": "f819b5f028a44d17817118ba393b1ba2f50a93d9"
+                "reference": "45c5e1b5c4734bbba2e23ae41d06e7902d35087b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudevents/sdk-php/zipball/f819b5f028a44d17817118ba393b1ba2f50a93d9",
-                "reference": "f819b5f028a44d17817118ba393b1ba2f50a93d9",
+                "url": "https://api.github.com/repos/cloudevents/sdk-php/zipball/45c5e1b5c4734bbba2e23ae41d06e7902d35087b",
+                "reference": "45c5e1b5c4734bbba2e23ae41d06e7902d35087b",
                 "shasum": ""
             },
             "require": {
@@ -100,7 +100,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.0-dev"
+                    "dev-main": "1.1-dev"
                 }
             },
             "autoload": {
@@ -117,7 +117,7 @@
                 "issues": "https://github.com/cloudevents/sdk-php/issues",
                 "source": "https://github.com/cloudevents/sdk-php"
             },
-            "time": "2023-04-24T14:36:02+00:00"
+            "time": "2023-12-18T02:56:02+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
