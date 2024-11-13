@@ -24,8 +24,8 @@ importers:
         specifier: ^9.0.2
         version: 9.0.2
       morgan:
-        specifier: ~1.9.1
-        version: 1.9.1
+        specifier: ~1.10.0
+        version: 1.10.0
 
 packages:
 
@@ -226,6 +226,10 @@ packages:
     resolution: {integrity: sha512-7emPTl6Dpo6JRXOXjLRxck+FlLRX5847cLKEn00PLAgc3g2hTZZgr+e4c2v6QpSmLeFP3n5yUo7ft6avBK/5jQ==}
     engines: {node: '>= 0.6'}
 
+  depd@2.0.0:
+    resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
+    engines: {node: '>= 0.8'}
+
   destroy@1.0.4:
     resolution: {integrity: sha512-3NdhDuEXnfun/z7x9GOElY49LoqVHoGScmOKwmxhsS8N5Y+Z8KyPPDnaSzqWgYt/ji4mqwfTS34Htrk0zPIXVg==}
 
@@ -382,8 +386,8 @@ packages:
     resolution: {integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==}
     hasBin: true
 
-  morgan@1.9.1:
-    resolution: {integrity: sha512-HQStPIV4y3afTiCYVxirakhlCfGkI161c76kKFca7Fk1JusM//Qeo1ej2XaMniiNeaZklMVrh3vTtIzpzwbpmA==}
+  morgan@1.10.0:
+    resolution: {integrity: sha512-AbegBVI4sh6El+1gNwvD5YIck7nSA36weD7xvIxG4in80j/UoK8AEGaWnnz8v1GxonMCltmlNs5ZKbGvl9b1XQ==}
     engines: {node: '>= 0.8.0'}
 
   ms@2.0.0:
@@ -724,6 +728,8 @@ snapshots:
 
   depd@1.1.2: {}
 
+  depd@2.0.0: {}
+
   destroy@1.0.4: {}
 
   ecdsa-sig-formatter@1.0.11:
@@ -899,11 +905,11 @@ snapshots:
 
   mime@1.4.1: {}
 
-  morgan@1.9.1:
+  morgan@1.10.0:
     dependencies:
       basic-auth: 2.0.1
       debug: 2.6.9
-      depd: 1.1.2
+      depd: 2.0.0
       on-finished: 2.3.0
       on-headers: 1.0.2
     transitivePeerDependencies:
