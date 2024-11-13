@@ -11,6 +11,6 @@
     "fix-esm": "^1.0.1",
     "httpsms": "^0.0.4",
     "jsonwebtoken": "^9.0.2",
-    "morgan": "~1.9.1"
+    "morgan": "~1.10.0"
   }
 }
