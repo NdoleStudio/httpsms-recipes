@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "debug": "~4.3.7",
-    "express": "~4.16.4",
+    "express": "~4.20.0",
     "fix-esm": "^1.0.1",
     "httpsms": "^0.0.4",
     "jsonwebtoken": "^9.0.2",
