@@ -1,0 +1,16 @@
+{
+  "name": "httpsms-express",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "fix-esm": "^1.0.1",
+    "httpsms": "^0.0.4",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "~1.9.1"
+  }
+}

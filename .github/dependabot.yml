@@ -5,7 +5,12 @@
 
 version: 2
 updates:
-  - package-ecosystem: "composer" # See documentation for possible values
-    directory: "/laravel" # Location of package manifests
+  - package-ecosystem: "composer"
+    directory: "/laravel"
     schedule:
       interval: "monthly"
+
+  - package-ecosystem: npm
+    directory: "/express"
+    schedule:
+      interval: monthly
