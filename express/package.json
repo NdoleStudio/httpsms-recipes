@@ -6,7 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "debug": "~2.6.9",
+    "debug": "~4.3.7",
     "express": "~4.16.1",
     "fix-esm": "^1.0.1",
     "httpsms": "^0.0.4",

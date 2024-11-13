@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       debug:
-        specifier: ~2.6.9
-        version: 2.6.9
+        specifier: ~4.3.7
+        version: 4.3.7
       express:
         specifier: ~4.16.1
         version: 4.16.4
@@ -19,7 +19,7 @@ importers:
         version: 1.0.1
       httpsms:
         specifier: ^0.0.4
-        version: 0.0.4(debug@2.6.9)
+        version: 0.0.4(debug@4.3.7)
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
@@ -658,9 +658,9 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  axios@1.7.7(debug@2.6.9):
+  axios@1.7.7(debug@4.3.7):
     dependencies:
-      follow-redirects: 1.15.9(debug@2.6.9)
+      follow-redirects: 1.15.9(debug@4.3.7)
       form-data: 4.0.1
       proxy-from-env: 1.1.0
     transitivePeerDependencies:
@@ -797,9 +797,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  follow-redirects@1.15.9(debug@2.6.9):
+  follow-redirects@1.15.9(debug@4.3.7):
     optionalDependencies:
-      debug: 2.6.9
+      debug: 4.3.7
 
   form-data@4.0.1:
     dependencies:
@@ -822,10 +822,10 @@ snapshots:
       setprototypeof: 1.1.0
       statuses: 1.4.0
 
-  httpsms@0.0.4(debug@2.6.9):
+  httpsms@0.0.4(debug@4.3.7):
     dependencies:
       '@types/node': 20.17.6
-      axios: 1.7.7(debug@2.6.9)
+      axios: 1.7.7(debug@4.3.7)
     transitivePeerDependencies:
       - debug
 
