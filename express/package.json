@@ -1,6 +1,7 @@
 {
   "name": "httpsms-express",
   "version": "1.0.0",
+  "description": "An example express application to receive webhook events from the httpsms.com API.",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
