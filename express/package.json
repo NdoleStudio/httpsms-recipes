@@ -13,5 +13,8 @@
     "httpsms": "^0.0.4",
     "jsonwebtoken": "^9.0.2",
     "morgan": "~1.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3"
   }
 }
