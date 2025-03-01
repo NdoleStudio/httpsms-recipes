@@ -137,16 +137,16 @@
         },
         {
             "name": "cloudevents/sdk-php",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudevents/sdk-php.git",
-                "reference": "45c5e1b5c4734bbba2e23ae41d06e7902d35087b"
+                "reference": "2d2f14720c83e4ef2b8e17250817b25d59ba055b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudevents/sdk-php/zipball/45c5e1b5c4734bbba2e23ae41d06e7902d35087b",
-                "reference": "45c5e1b5c4734bbba2e23ae41d06e7902d35087b",
+                "url": "https://api.github.com/repos/cloudevents/sdk-php/zipball/2d2f14720c83e4ef2b8e17250817b25d59ba055b",
+                "reference": "2d2f14720c83e4ef2b8e17250817b25d59ba055b",
                 "shasum": ""
             },
             "require": {
@@ -159,7 +159,7 @@
                 "guzzlehttp/psr7": "^2.4.3",
                 "php-http/discovery": "^1.15.2",
                 "phpunit/phpunit": "^9.6.3 || ^10.0.12",
-                "psalm/phar": "5.7.6",
+                "psalm/phar": "5.26.1",
                 "psr/http-factory": "^1.0.1",
                 "psr/http-message": "^1.0.1",
                 "squizlabs/php_codesniffer": "3.7.2"
@@ -174,7 +174,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.1-dev"
+                    "dev-main": "1.2-dev"
                 }
             },
             "autoload": {
@@ -191,7 +191,7 @@
                 "issues": "https://github.com/cloudevents/sdk-php/issues",
                 "source": "https://github.com/cloudevents/sdk-php"
             },
-            "time": "2023-12-18T02:56:02+00:00"
+            "time": "2025-02-07T18:31:27+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
