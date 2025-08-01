@@ -12,7 +12,7 @@
     "fix-esm": "^1.0.1",
     "httpsms": "^0.0.4",
     "jsonwebtoken": "^9.0.2",
-    "morgan": "~1.10.0"
+    "morgan": "~1.10.1"
   },
   "devDependencies": {
     "prettier": "^3.6.2"
